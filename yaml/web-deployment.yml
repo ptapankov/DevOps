@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: auto-dof-web-container
-        image: ptsonkov/dof-exam-nginx:latest
+        image: ptapankov/nginx:latest
         ports:
         - containerPort: 80 
 ---
@@ -61,7 +61,7 @@ spec:
     spec:
       containers:
       - name: auto-dof-php-container
-        image: ptsonkov/dof-exam-php:latest
+        image: ptapankov/php:latest
         ports:
         - containerPort: 9000 
 ---
