@@ -117,4 +117,4 @@ spec:
     nodePort: 31013
     protocol: TCP
   selector:
-app: auto-dof
+   app: auto-dof
